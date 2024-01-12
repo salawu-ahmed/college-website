@@ -5,7 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>University Website Design</title>
     <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts Link -->
     <link rel="stylesheet" href="https://font.googleapis.com/css2?family=Poppina:wght@100;200;300;400;600;700&display=swap">
+    <!-- Font Awesome CDN -->
+    <script src="https://kit.fontawesome.com/9c608bb455.js" crossorigin="anonymous"></script>
+    <!-- JavaScript File -->
+    <script src="script.js" defer></script>
+
 </head>
 <body>
     <section class="header">
@@ -14,7 +20,8 @@
                 <img src="images/logo.png" alt="">
             </a>
 
-            <div class="nav_links">
+            <div class="nav_links" id="navLinks">
+                <i class="fas fa-times" id="showMenu"></i>
                 <ul>
                     <li><a href="home">home</a></li>
                     <li><a href="">about</a></li>
@@ -23,6 +30,7 @@
                     <li><a href="">contact</a></li>
                 </ul>
             </div>
+            <i class="fa fa-bars" id="closeMenu"></i>
         </nav>
         <div class="text-box">
             <h1>World's Biggest University</h1>

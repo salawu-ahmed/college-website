@@ -100,3 +100,37 @@ nav img {
     scale: .9;
 }
 
+nav .fa {
+    display: none;
+}
+
+/* MOBILE HERO SECTION */
+@media (max-width: 920px) {
+    .text-box h1 {
+        font-size: 20px;
+    }
+    .nav_links ul li {
+        display: block;
+    }
+    .nav_links {
+        position: absolute;
+        background-color: #f44336;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
+        transition: 1s;
+    }
+    nav .fa {
+        display: block;
+        color: #fff;
+        cursor: pointer;
+        margin: 10px;
+        font-size: 22px;
+    }
+    .nav_links ul {
+        padding: 30px;
+    }
+}
